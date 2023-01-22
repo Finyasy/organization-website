@@ -24,6 +24,9 @@ code {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
+  text-align: center;
+  /* text-shadow: 1px 1px #ccc;  */
+  color: green;
 }
 
 .header-links {
@@ -48,7 +51,7 @@ code {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
   text-align: center; /* centers the text within the container */
-  color: #000; /* sets text color to black */
+  color: black; /* sets text color to black */
   font-size: 1.2rem; /* increases font size for better visibility */
   line-height: 1.5; /* adds spacing between lines of text */
 }
