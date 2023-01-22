@@ -110,3 +110,35 @@ code {
   text-align: justify;
   word-wrap: break-word;
 }
+
+.contact-text-container h1{
+  text-align: center;
+  color: black;
+}
+
+.contact-text-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  text-align: center; /* centers the text within the container */
+  color: #000; /* sets text color to black */
+  font-size: 1.2rem; /* increases font size for better visibility */
+  line-height: 1.5; /* adds spacing between lines of text */
+}
+
+.contact-text-container p {
+  font-weight: 260; /* makes the font slightly thinner */
+  font-size: 2rem; /* increases font size for headings */
+  margin-bottom: 1rem;
+  color: #000; /* sets text color to black */
+  text-align: justify;
+  word-wrap: break-word;
+}
