@@ -88,3 +88,25 @@ code {
   text-align: justify;
   word-wrap: break-word;
 }
+
+.product-text-container p{
+  font-weight: 260; /* makes the font slightly thinner */
+  font-size: 2rem; /* increases font size for headings */
+  margin-bottom: 1rem;
+  color: #000; /* sets text color to black */
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.product-text-container h2{
+  text-align: center;
+}
+
+.product-text-container li{
+  font-weight: 260; /* makes the font slightly thinner */
+  font-size: 2rem; /* increases font size for headings */
+  margin-bottom: 1rem;
+  color: #000; /* sets text color to black */
+  text-align: justify;
+  word-wrap: break-word;
+}
