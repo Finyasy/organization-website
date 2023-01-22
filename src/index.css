@@ -62,3 +62,29 @@ code {
   text-align: justify;
   word-wrap: break-word;
 }
+
+.about-text-container h1 {
+  font-weight: bold; /* makes the text bold */
+  color: #000; /* sets text color to black */
+}
+.about-text-container p {
+  font-size: 2rem; /* increases font size for headings */
+  font-weight: 260;
+  margin-bottom: 1rem;
+  color: #000; /* sets text color to black */
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+.about-text-container h2{
+  text-align: center;
+}
+
+.about-text-container li{
+  font-weight: 260; /* makes the font slightly thinner */
+  font-size: 2rem; /* increases font size for headings */
+  margin-bottom: 1rem;
+  color: #000; /* sets text color to black */
+  text-align: justify;
+  word-wrap: break-word;
+}
