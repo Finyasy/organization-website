@@ -1,3 +1,7 @@
+# Project Live Deployment
+
+The project was deployed to Netlify [Live Link] (https://sprightly-kataifi-e5c595.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
