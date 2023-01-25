@@ -11,7 +11,7 @@ const Products = () => {
       width: '100%',
       height: '100%',
       position: 'absolute',
-      opacity: 0.7
+    
     }}>
       <div className='product-text-container'>
       <p>At Basel Retirement Home and Care Center, we deliver services that help our residents live
