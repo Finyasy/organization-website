@@ -3,7 +3,7 @@ import homepage from '../images/homepage.jpg'
 
 const Homepage = () => {
   return (
-    <div style={{
+    <div className='background-image' style={{
       backgroundImage: `url(${homepage})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
@@ -11,6 +11,7 @@ const Homepage = () => {
       width: '100%',
       height: '100%',
       position: 'absolute',
+      opacity: 0.7
     }}>
 
 <div className="homepage-text-container">

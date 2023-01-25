@@ -3,7 +3,7 @@ import Cont from '../images/Cont.png'
 
 const Contact = () => {
   return (
-    <div style={{
+    <div className='background-image' style={{
       backgroundImage: `url(${Cont})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',

@@ -3,7 +3,7 @@ import Prod from '../images/Prod.jpg'
 
 const Products = () => {
   return (
-    <div style={{
+    <div className='background-image' style={{
       backgroundImage: `url(${Prod})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',

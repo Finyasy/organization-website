@@ -3,7 +3,7 @@ import AboutUs from '../images/AboutUs.jpg'
 
 const About = () => {
   return (
-    <div style={{
+    <div className='background-image' style={{
       backgroundImage: `url(${AboutUs})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
@@ -11,8 +11,8 @@ const About = () => {
       width: '100%',
       height: '100%',
       position: 'absolute',
-      opacity: 0.9
     }}>
+
       <div className="about-text-container">
         <h2>Who We Are</h2>
         <p>
@@ -20,7 +20,9 @@ const About = () => {
           services to retirees and seniors in the Basel-Stadt area. Ever since, we have offered our residents
           affordable, quality care and services ranging from at-home care and specialized care services.
           The organization derives its success from adhering to empathetic, quality care to offer peace of
-          mind to its clients and their loved ones. Our experienced and devoted personnel and volunteers
+          mind to its clients and their loved ones.</p>
+          <p>
+           Our experienced and devoted personnel and volunteers
           employ their elderly care, social work, and community services expertise to ensure the residents
           live comfortably and independently.We are committed to pushing boundaries to become the best elderly 
           care service provider in the Basel-Stadt area by fostering healthy aging for retirees and older adults
