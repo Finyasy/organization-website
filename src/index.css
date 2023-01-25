@@ -69,10 +69,10 @@ code {
 
 .about-text-container p {
   font-size: 1.5rem; /* increases font size for headings */
-  font-weight: 460;
+  font-weight: 400;
   margin-bottom: 2rem;
   color:  black;
-  text-align: justify;
+  text-align: center;
   word-wrap: break-word;
 }
 
