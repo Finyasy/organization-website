@@ -21,12 +21,12 @@ code {
 }
 
 .header-title {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
   text-align: center;
   /* text-shadow: 1px 1px #ccc;  */
-  color: green;
+  color: rgb(12, 137, 178);
 }
 
 .header-links {
@@ -146,4 +146,10 @@ code {
   color: #000; /* sets text color to black */
   text-align: justify;
   word-wrap: break-word;
+}
+
+.header-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
