@@ -10,8 +10,11 @@ const Products = () => {
       backgroundPosition: 'center',
       width: '100%',
       height: '100%',
-      position: 'absolute'
+      position: 'absolute',
+      opacity: 0.7,
+      zIndex: -1
     }}>
+    <div className='content-container' style={{zIndex: 1, position: 'relative'}}>
       <div className='product-text-container'>
       <p>At Basel Retirement Home and Care Center, we deliver services that help our residents live
       happy, comfortable, independent, and fulfilling lives. These services and programs are grouped
@@ -81,6 +84,7 @@ with professionals who provide spiritual, social, and psychological care.
 depression, anxiety, and other mental disorders.
         </li>
       </ul>
+      </div>
       </div>
       </div>
   );
