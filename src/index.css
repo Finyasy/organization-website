@@ -72,7 +72,6 @@ code {
 }
 
 .about-text-container p{
-  margin-top: 50px;
   width: 80%;
   display: grid;
   align-items: center;
@@ -116,28 +115,46 @@ code {
 }
 
 .product-text-container p{
-  font-weight: 400; /* makes the font slightly thinner */
-  font-size: 2rem; /* increases font size for headings */
-  margin-bottom: 2rem;
+  width: 80%;
+  display: grid;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 400;
   color:  black;
   text-align: center;
   word-wrap: break-word;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
 
 .product-text-container h2{
+  font-weight: 400;
   text-align: center;
   color: blue;
 }
 
 .product-text-container li{
-  font-weight: 400; /* makes the font slightly thinner */
-  font-size: 2rem; /* increases font size for headings */
+  list-style-type: none;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  font-weight: 400;
+  font-size: 1.5rem; 
   margin-bottom: 2rem;
-  color:  rgb(25, 2, 2);
-  text-align: justify;
+  color: black; 
+  text-align: center;
   word-wrap: break-word;
   letter-spacing: 1px;
   line-height: 2rem;
+}
+
+.product-text-container li::before {
+  content: "•";
+  color: red;
+  margin-right: 10px;
 }
 
 .contact-text-container h1{
