@@ -59,40 +59,46 @@ code {
 
 .homepage-text-container p {
   font-weight: 400; /* makes the font slightly thinner */
-  font-size: 2rem; /* increases font size for headings */
+  font-size: 1.5rem; /* increases font size for headings */
   margin-bottom: 2rem;
   color: black; /* sets text color to black */
   text-align: center;
   word-wrap: break-word;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
-  display: grid;
+  display: flex;
   place-items: center;
-  font-style: italic;
 }
 
-.about-text-container p {
+.about-text-container p{
+  width: 80%;
+  display: flex;
+  align-items: center;
+  place-items: center;
+  justify-content: center;
   font-size: 1.5rem; /* increases font size for headings */
   font-weight: 400;
   margin-bottom: 2rem;
   color:  black;
   text-align: center;
   word-wrap: break-word;
+  margin: 0 auto;
 }
 
 .about-text-container h2{
-  font-weight: bold;
+  font-weight: 400;
   text-align: center;
   color: blue;
 }
 
 .about-text-container li{
+  margin: 0 auto;
+  width: 80%;
   font-weight: 400; /* makes the font slightly thinner */
-  font-size: 2rem; /* increases font size for headings */
+  font-size: 1.5rem; /* increases font size for headings */
   margin-bottom: 2rem;
-  color:rgb(150, 45, 220); /* sets text color to black */
+  color: black; /* sets text color to black */
   text-align: justify;
   word-wrap: break-word;
   letter-spacing: 1px;
