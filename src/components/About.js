@@ -11,7 +11,10 @@ const About = () => {
       width: '100%',
       height: '100%',
       position: 'absolute',
+      opacity:0.7,
+      zIndex: -1
     }}>
+    <div className='content-container' style={{zIndex: 1, position: 'relative'}}>
 
       <div className="about-text-container">
         <h2>Who We Are</h2>
@@ -21,6 +24,7 @@ const About = () => {
           affordable, quality care and services ranging from at-home care and specialized care services.
           The organization derives its success from adhering to empathetic, quality care to offer peace of
           mind to its clients and their loved ones.</p>
+
           <p>
            Our experienced and devoted personnel and volunteers
           employ their elderly care, social work, and community services expertise to ensure the residents
@@ -45,6 +49,7 @@ const About = () => {
           <li>Integrity: We demonstrate honesty when working with our residents and their families.</li>
           <li>Dignity: We treat all our residents and their families with utmost respect and privacy.</li>
         </ul>
+        </div>
         </div>
     </div>
   );
