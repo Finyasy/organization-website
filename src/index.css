@@ -73,17 +73,18 @@ code {
 
 .about-text-container p{
   width: 80%;
-  display: flex;
+  display: grid;
   align-items: center;
   place-items: center;
   justify-content: center;
   font-size: 1.5rem; /* increases font size for headings */
   font-weight: 400;
-  margin-bottom: 2rem;
   color:  black;
   text-align: center;
   word-wrap: break-word;
   margin: 0 auto;
+  margin-bottom: 2rem;
+  line-height: 2rem;
 }
 
 .about-text-container h2{
@@ -93,16 +94,24 @@ code {
 }
 
 .about-text-container li{
+  list-style-type: none;
+  display: flex;
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   font-weight: 400; /* makes the font slightly thinner */
   font-size: 1.5rem; /* increases font size for headings */
   margin-bottom: 2rem;
   color: black; /* sets text color to black */
-  text-align: justify;
+  text-align: center;
   word-wrap: break-word;
   letter-spacing: 1px;
   line-height: 2rem;
+}
+
+.about-text-container li::before {
+  content: "•";
+  color: red;
+  margin-right: 10px;
 }
 
 .product-text-container p{
