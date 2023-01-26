@@ -184,9 +184,10 @@ code {
   font-weight: 400; /* makes the font slightly thinner */
   font-size: 2rem; /* increases font size for headings */
   margin-bottom: 2rem;
-  color:  rgb(150, 45, 220);
-  text-align: center;
+  color:  black;
+  text-align: flex;
   word-wrap: break-word;
+  width: 80%;
 }
 
 .header-logo {
