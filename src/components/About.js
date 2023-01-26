@@ -9,7 +9,7 @@ const About = () => {
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       width: '100%',
-      height: '100%',
+      height: '55%',
       position: 'absolute',
       opacity:0.7,
       zIndex: -1

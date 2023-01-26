@@ -1,10 +1,10 @@
 import React from 'react';
-import Prod from '../images/Prod.jpg'
+import Prod2 from '../images/Prod2.jpg'
 
 const Products = () => {
   return (
     <div className='background-image' style={{
-      backgroundImage: `url(${Prod})`,
+      backgroundImage: `url(${Prod2})`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
