@@ -1,6 +1,6 @@
 # Project Live Deployment
 
-The project was deployed to Netlify [Live Link] (https://sprightly-kataifi-e5c595.netlify.app/)
+The project was deployed to Netlify [Live Link] (https://baselretirementhome.netlify.app/)
 
 # Getting Started with Create React App
 
