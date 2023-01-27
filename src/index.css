@@ -182,7 +182,7 @@ code {
 
 .contact-text-container p {
   font-weight: 400; /* makes the font slightly thinner */
-  font-size: 2rem; /* increases font size for headings */
+  font-size: 1.5rem; /* increases font size for headings */
   margin-bottom: 2rem;
   color:  black;
   text-align: flex;
